@@ -1,0 +1,17 @@
+micronaut:
+  application:
+    name: micronaut-http-server-test
+  server:
+    port: 8080
+  io:
+    watch:
+      paths: src/main
+      restart: true
+
+endpoints:
+  all:
+    enabled: true
+    sensitive: false
+
+metrics:
+  enabled: true
